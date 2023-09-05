@@ -8,6 +8,7 @@ import json
 
 
 FORMAT = "%(levelname)s:%(message)s"
+
 logging.basicConfig(format=FORMAT, level=logging.DEBUG)
 
 app = FastAPI()
